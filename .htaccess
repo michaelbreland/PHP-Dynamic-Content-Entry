@@ -1,2 +1,0 @@
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/\ ]+/)*([^.\ ]+\.)+(php|html?)\ HTTP
-RewriteRule ^(([^/]+/)*[^.]+)\.(php|html?)$ http://localhost/mysite/$1 [R=301,L]
